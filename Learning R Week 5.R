@@ -61,4 +61,4 @@ hist(chisq_pval_F2, breaks=20)
 table(chisq_pval_F2 < 0.0001) # 95 retained for nondistorted, 5 distorted 
 table(chisq_pval_F2 < 0.001) # 92 vs 8
 table(chisq_pval_F2 < 0.05) # 79 vs 21 
-
+cor(chisq_pval_F2, F2$P.value)
